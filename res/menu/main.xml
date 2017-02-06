@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.maps.MainActivity" >
+    <item android:id="@+id/normalmap"
+        android:title="Normal"/>
+    <item android:id="@+id/terrainmap"
+        android:title="Terrain"/>
+    <item android:id="@+id/satellitemap"
+        android:title="Satellite"/>
+    <item android:id="@+id/hybridmap"
+        android:title="HYbrid"/>
+    <item android:id="@+id/nonemap"
+        android:title="None"/>
+    <item android:id="@+id/maplastloc"
+        android:title="Last Location"/>
+    <item android:id="@+id/addshapestomap"
+        android:title="Draw polygon"/>
+
+</menu>
